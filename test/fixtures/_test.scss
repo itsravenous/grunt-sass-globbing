@@ -1,0 +1,6 @@
+/**
+ * Test sass file with globbing imports
+ */
+
+@import "atoms/*";
+@import "atoms/**";
