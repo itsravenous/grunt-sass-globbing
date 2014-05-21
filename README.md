@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # grunt-sass-globbing
 
 > Shims globbing support for SASS. Useful if you can't use the sass-globbing plugin (e.g. you're using libsass)
@@ -87,3 +88,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+=======
+grunt-sass-globbing
+===================
+
+Shims globbing support for SASS. Useful if you can't use the sass-globbing plugin (e.g. you're using libsass)
+>>>>>>> 536e31eb419725533c97e67f952e8f7639841e92
