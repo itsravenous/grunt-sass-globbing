@@ -32,8 +32,13 @@ module.exports = function(grunt) {
 
       // Find and replace globbing patterns with actual file lists
       var re = /@import ['"](.*)['"]/g;
-      var globs = re.exec(src);
-      console.log('GLOBS', globs);
+      var glob;
+      while(glob = re.exec(src)) {
+        var pattern = glob[1];
+        console.log(pattern);
+      }
+
+
 
 
       // Write the destination file.
